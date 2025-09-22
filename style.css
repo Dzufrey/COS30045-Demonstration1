@@ -1,4 +1,16 @@
-/* Custom colours - adjust to match your logo */
+/* Make page content fill screen and push footer to bottom */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Let main content grow to fill space */
+.container {
+  flex: 1;
+}
+
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background-color: #f8f9fa;
@@ -23,7 +35,7 @@ body {
 .custom-nav .nav-link.active {
   font-weight: bold;
   color: #fff;
-  border-bottom: 2px solid #ffcc00; /* highlight current page */
+  border-bottom: 2px solid #ffcc00;
 }
 
 .logo {
