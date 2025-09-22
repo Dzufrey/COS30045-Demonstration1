@@ -1,0 +1,41 @@
+/* Custom colours - adjust to match your logo */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #222;
+}
+
+.custom-nav {
+  background-color: #004080; /* dark blue like power/energy themes */
+}
+
+.custom-nav .nav-link {
+  color: #eee;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.custom-nav .nav-link:hover {
+  background-color: #0066cc;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.custom-nav .nav-link.active {
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 2px solid #ffcc00; /* highlight current page */
+}
+
+.logo {
+  height: 30px;
+  margin-right: 8px;
+}
+
+.page h1 {
+  color: #004080;
+}
+
+.footer {
+  background-color: #e6e6e6;
+  font-size: 0.9rem;
+}
