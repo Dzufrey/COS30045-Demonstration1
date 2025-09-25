@@ -57,21 +57,7 @@
     Website code created with assistance from GenAI.</p>
   </footer>
 
-  <!-- JavaScript -->
-  <script>
-    function showPage(page) {
-      // hide all
-      document.querySelectorAll('.page').forEach(p => p.style.display = 'none');
-      // show selected
-      document.getElementById('page-' + page).style.display = 'block';
-
-      // update active nav
-      document.querySelectorAll('.nav-link').forEach(link => link.classList.remove('active'));
-      document.getElementById('nav-' + page).classList.add('active');
-    }
-
-    // footer year
-    document.getElementById('year').innerText = new Date().getFullYear();
-  </script>
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
 </body>
 </html>
